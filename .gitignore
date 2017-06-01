@@ -1,4 +1,5 @@
 # Various Node ignoramuses.
+.env
 
 logs
 *.log
