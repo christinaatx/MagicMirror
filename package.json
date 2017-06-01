@@ -9,7 +9,10 @@
     "postinstall": "sh installers/postinstall/postinstall.sh",
     "test": "./node_modules/mocha/bin/mocha tests --recursive",
     "test:unit": "./node_modules/mocha/bin/mocha tests/unit --recursive",
-    "test:e2e": "./node_modules/mocha/bin/mocha tests/e2e --recursive"
+    "test:e2e": "./node_modules/mocha/bin/mocha tests/e2e --recursive",
+    "start": "node conversation.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "repository": {
     "type": "git",
@@ -62,6 +65,8 @@
     "simple-git": "^1.62.0",
     "socket.io": "^1.7.3",
     "valid-url": "latest",
-    "walk": "latest"
+    "walk": "latest",
+    "mic": "^2.1.1",
+    "watson-developer-cloud": "^2.2.0"
   }
 }

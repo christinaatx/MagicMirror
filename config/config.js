@@ -9,7 +9,7 @@ var config = {
 	ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1"], // Set [] to allow all IP addresses.
 
 	language: "en",
-	timeFormat: 24,
+	timeFormat: 12,
 	units: "metric",
 
 	modules: [
@@ -41,25 +41,25 @@ var config = {
 			module: "compliments",
 			position: "lower_third"
 		},
-		// {
-		// 	module: "currentweather",
-		// 	position: "top_right",
-		// 	config: {
-		// 		location: "New York",
-		// 		locationID: "",  //ID from http://www.openweathermap.org/help/city_list.txt
-		// 		appid: "YOUR_OPENWEATHER_API_KEY"
-		// 	}
-		// },
-		// {
-		// 	module: "weatherforecast",
-		// 	position: "top_right",
-		// 	header: "Weather Forecast",
-		// 	config: {
-		// 		location: "New York",
-		// 		locationID: "5128581",  //ID from http://www.openweathermap.org/help/city_list.txt
-		// 		appid: "YOUR_OPENWEATHER_API_KEY"
-		// 	}
-		// },
+		{
+			module: "currentweather",
+			position: "top_right",
+			config: {
+				location: "Austin",
+				locationID: "4254010",  //ID from http://www.openweathermap.org/help/city_list.txt
+				appid: "process.env.WEATHER_API"
+			}
+		},
+		{
+			module: "weatherforecast",
+			position: "top_right",
+			header: "Weather Forecast",
+			config: {
+				location: "Austin",
+				locationID: "4254010",  //ID from http://www.openweathermap.org/help/city_list.txt
+				appid: "process.env.WEATHER_API"
+			}
+		},
 		{
 			module: "newsfeed",
 			position: "bottom_bar",
@@ -77,6 +77,8 @@ var config = {
 	]
 
 };
+
+// process.env.TTS_URL
 
 /*************** DO NOT EDIT THE LINE BELOW ***************/
 if (typeof module !== "undefined") {module.exports = config;}
