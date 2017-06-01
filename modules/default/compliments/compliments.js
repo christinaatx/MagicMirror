@@ -17,17 +17,18 @@ Module.register("compliments", {
 			morning: [
 				"Good morning, sunshine!",
 				"Top of the Morning to You!",
-				"You is Smart, You is Kind, You is Important=)"
+				"You is Smart, You is Kind, You is Important =)",
+				"In a world of ordinary mortals, you are a wonder woman -Wonder Woman's Mom"
 			],
 			afternoon: [
 				"You're much strong than you think you are. Trust me. -Superman",
-				"Your hair is on point!",
+				"With great power comes great responsibility -Uncle Ben",
 				"I am here to pump you up!"
 			],
 			evening: [
 				"Are you going out tonight!",
 				"“All we have to decide is what to do with the time that is given to us. – Gandalf",
-				"Goodnight =)"
+				"You only have your thoughts and dreams ahead of you. You are someone. You mean something. -Batman"
 			]
 		},
 		updateInterval: 30000,
