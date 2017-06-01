@@ -12,22 +12,22 @@ Module.register("compliments", {
 	defaults: {
 		compliments: {
 			anytime: [
-				"Hey there sexy!"
+				"You are the fairest of them all"
 			],
 			morning: [
-				"Good morning, handsome!",
-				"Enjoy your day!",
-				"How was your sleep?"
+				"Good morning, sunshine!",
+				"Top of the Morning to You!",
+				"You is Smart, You is Kind, You is Important=)"
 			],
 			afternoon: [
-				"Hello, beauty!",
-				"You look sexy!",
-				"Looking good today!"
+				"You're much strong than you think you are. Trust me. -Superman",
+				"Your hair is on point!",
+				"I am here to pump you up!"
 			],
 			evening: [
-				"Wow, you look hot!",
-				"You look nice!",
-				"Hi, sexy!"
+				"Are you going out tonight!",
+				"“All we have to decide is what to do with the time that is given to us. – Gandalf",
+				"Goodnight =)"
 			]
 		},
 		updateInterval: 30000,
